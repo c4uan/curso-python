@@ -7,6 +7,7 @@ import sys
 
 entrada = input('Digite um CPF: ')
 
+#Checagem de dados não numéricos
 entrada_cpf = re.sub(
     r'[^0-9]',
     '',
