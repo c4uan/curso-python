@@ -22,8 +22,7 @@ def paircheck(number):#recebe o parâmetro da variável que utiliza a função
 
     if pair:
         return f'{number} é par'
-    else:
-        return f'{number} é ímpar'
+    return f'{number} é ímpar'
 
 is2pair = paircheck(2)
 print(is2pair)
