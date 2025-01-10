@@ -7,8 +7,8 @@
 
 def multiplicar(*args):
     total = 1
-    for numero in args:
-        total *= numero
+    for number in args:
+        total *= number
     return total
 
 multiplicacao = multiplicar(1, 2, 3, 4, 5 ,6)
@@ -17,13 +17,13 @@ print(multiplicacao)
 # Crie uma função fala se um número é par ou ímpar.
 # Retorne se o número é par ou ímpar.
 
-def paircheck(numero):#recebe o parâmetro da variável que utiliza a função
-    pair = numero % 2 == 0
+def paircheck(number):#recebe o parâmetro da variável que utiliza a função
+    pair = number % 2 == 0
 
     if pair:
-        return f'{numero} é par'
+        return f'{number} é par'
     else:
-        return f'{numero} é ímpar'
+        return f'{number} é ímpar'
 
 is2pair = paircheck(2)
 print(is2pair)
