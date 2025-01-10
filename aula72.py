@@ -17,7 +17,7 @@ print(multiplicacao)
 # Crie uma função fala se um número é par ou ímpar.
 # Retorne se o número é par ou ímpar.
 
-def paircheck(number):#recebe o parâmetro da variável que utiliza a função
+def paircheck(number):#recebe o argumento da variável que utiliza a função
     pair = number % 2 == 0
 
     if pair:
