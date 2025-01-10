@@ -18,6 +18,6 @@ def soma(*args):
     return total
 
 
-soma1 = soma(1, 2, 3, 4, 5, 6)
+soma_1 = soma(1, 2, 3, 4, 5, 6)
 
-print(soma1)
+print(soma_1)
