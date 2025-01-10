@@ -11,23 +11,23 @@ def multiplicar(*args):
         total *= numero
     return total
 
-multiplicacao = multiplicar(1, 2, 3, 4, 5, 6)
+multiplicacao = multiplicar(1, 2, 3, 4, 5 ,6)
 print(multiplicacao)
 
 # Crie uma função fala se um número é par ou ímpar.
 # Retorne se o número é par ou ímpar.
 
-def par_impar(numero):
+def paircheck(numero):#recebe o parâmetro da variável que utiliza a função
+    pair = numero % 2 == 0
 
-    multiplode2 = numero % 2 == 0
-
-    if multiplode2:
+    if pair:
         return f'{numero} é par'
     else:
-        return f'{numero} é impar'
+        return f'{numero} é ímpar'
 
-outro_par_impar = par_impar(10)
-dois_par_impar = par_impar(2)
-print(dois_par_impar)
-print(par_impar(3))
-print(par_impar(4))
+is2pair = paircheck(2)
+print(is2pair)
+print(paircheck(3))
+print(paircheck(5))
+print(paircheck(6))
+print(paircheck(98762))
