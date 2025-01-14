@@ -15,8 +15,8 @@
 
 #Forma mais comum de criar dicionários
 pessoa = {
-    'nome': 'Cauan Magno',
-    'sobrenome': 'Cerqueira',
+    'nome': 'Cauan',
+    'sobrenome': 'Magno',
     'idade': 21,
     'altura': 1.78,
     'endereços':[
@@ -33,8 +33,10 @@ print()
 
 """
 for para iterar atributos
-dict não é um dado iterável, mas o for utiliza automaticamente
-o método values() da classe dict para realizar a iteração
+dict não é um tipo de dado iterável
+mas o for utiliza automaticamente
+o método dict.values() da classe dict 
+para realizar a iteração
 sobre os valores
 """
 
