@@ -33,7 +33,7 @@ else:
 # 2ª forma solucionar erro das linhas 17 e 18:
 # tratar a exceção
 try:
-    if pessoa['sobrenome']:
+    if pessoa['sobrenome'] is not None:
         print(pessoa['sobrenome'])
 except KeyError:
       print(f'a chave valor {chave_sobrenome} não existe ou foi deletada')
